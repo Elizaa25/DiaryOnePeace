@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Log Bajak Laut One Piece</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Catatan Kapten</h1>
+    </header>
+
+    <div class="app-container">
+      <div class="diary-form">
+        <div class="form-group">
+          <label for="entry-title">Judul Catatan</label>
+          <input type="text" id="entry-title" placeholder="Judul..." />
+        </div>
+        <div class="form-group">
+          <label for="entry-content">Isi Catatan</label>
+          <textarea id="entry-content" placeholder="Isi petualangan..."></textarea>
+        </div>
+        <button id="save-btn" class="btn btn-primary">Simpan ke Log</button>
+        <button id="clear-btn" class="btn btn-secondary">Kosongkan</button>
+      </div>
+
+      <div class="diary-entries">
+        <h2>Kronik Bajak Lautmu</h2>
+        <div id="entries-list">
+          <div class="empty-message">Belum ada catatan, Kapten! Petualanganmu menanti...</div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Dibuat oleh bajak laut untuk bajak laut &copy; Grand Line Tech</p>
+    </footer>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
