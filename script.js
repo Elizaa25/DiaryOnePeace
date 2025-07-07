@@ -1,8 +1,8 @@
 import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm";
 
 const supabase = createClient(
-  "https://feriqnmbfzixgeedmvzw.supabase.co",
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZlcmlxbm1iZnppeGdlZWRtdnp3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA2ODY3NTAsImV4cCI6MjA2NjI2Mjc1MH0.POc4TH7fATyb1lsWmMPmUZUww4vaH_5qgGCsD3MsW-E"
+  "https://wicypngubtqwqdmhwphj.supabase.co",
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndpY3lwbmd1YnRxd3FkbWh3cGhqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE4NTYyOTEsImV4cCI6MjA2NzQzMjI5MX0.VlolY9iI_EVbgge-GNWuP_GAKfF6jPdngnhcfE-UYkU"
 );
 
 const saveBtn = document.getElementById("save-btn");
